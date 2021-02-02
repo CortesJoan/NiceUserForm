@@ -89,8 +89,8 @@
         android:layout_marginTop="150dp"
         android:backgroundTint="@color/material_on_surface_stroke"
         android:text="LOGIN"
-        android:textSize="20sp"
-        android:textColor="@color/cardview_light_background" />
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/registerButton"
@@ -106,14 +106,14 @@
         android:textSize="18sp" />
 
     <com.google.android.material.textview.MaterialTextView
+        style="@style/TextAppearance.MaterialComponents.Button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/registerButton"
-        style="@style/TextAppearance.MaterialComponents.Button"
-        android:gravity="center"
         android:backgroundTint="@color/material_on_surface_stroke"
+        android:gravity="center"
 
         android:text="FORGOT PASSWORD?"
         android:textColor="@color/cardview_light_background"
-        android:textSize="20sp" />
+        android:textSize="18sp" />
 </RelativeLayout>
